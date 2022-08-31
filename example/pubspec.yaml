@@ -1,0 +1,34 @@
+name: learning_example
+description: Demonstrates how to use the learning plugin.
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  uuid: ^3.0.5
+  provider: ^6.0.1
+  flutter_native_image: ^0.0.6+1
+  learning:
+    path: ../
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+  - assets/barcode_scanning.png
+  - assets/face_detection.png
+  - assets/image_labeling.png
+  - assets/language_detection.png
+  - assets/object_detection.png
+  - assets/on_device_translate.png
+  - assets/selfie_segmentation.jpg
+  - assets/smart_reply.png
+  - assets/text_recognition.png
